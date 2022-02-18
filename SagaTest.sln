@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderActualizator", "ProviderActualizator\ProviderActualizator.csproj", "{08523BD1-9DBD-49AA-8E7A-30B47F58917E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProviderActualizator", "ProviderActualizator\ProviderActualizator.csproj", "{08523BD1-9DBD-49AA-8E7A-30B47F58917E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provider", "Provider\Provider.csproj", "{AC25ED9A-DF5F-4ECD-86B9-A1DD5965A596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provider", "Provider\Provider.csproj", "{AC25ED9A-DF5F-4ECD-86B9-A1DD5965A596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderUploader", "ProviderUploader\ProviderUploader.csproj", "{A579C8D7-899F-4296-9CF6-BD34D500DF10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProviderUploader", "ProviderUploader\ProviderUploader.csproj", "{A579C8D7-899F-4296-9CF6-BD34D500DF10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{46D787CA-41DF-48EC-BE15-CFEF940286E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A65BBED7-CD03-44B5-A801-B54D2F9D19A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{A579C8D7-899F-4296-9CF6-BD34D500DF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A579C8D7-899F-4296-9CF6-BD34D500DF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A579C8D7-899F-4296-9CF6-BD34D500DF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D787CA-41DF-48EC-BE15-CFEF940286E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D787CA-41DF-48EC-BE15-CFEF940286E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D787CA-41DF-48EC-BE15-CFEF940286E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D787CA-41DF-48EC-BE15-CFEF940286E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65BBED7-CD03-44B5-A801-B54D2F9D19A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65BBED7-CD03-44B5-A801-B54D2F9D19A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65BBED7-CD03-44B5-A801-B54D2F9D19A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65BBED7-CD03-44B5-A801-B54D2F9D19A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
